@@ -1,9 +1,9 @@
 from groq import Groq
-from models import Response
+from models import Response, Question
 
 history = []
 
-def call_groq(input):
+def call_groq(input: Question):
     query = input.query
     client = Groq()
 
