@@ -1,34 +1,33 @@
-Petit tutoriel pour expliquer comment debuter en IA en utilisant FastAPI comme Framework.
+# Groq Tutorial
+
+Ein einfaches Tutorial, um mit KI unter Verwendung von FastAPI zu beginnen.
 
 ## Frameworks
 
-1. Flask,
+1. Flask
 2. Django
 3. FastAPI (https://fastapi.tiangolo.com/tutorial/first-steps/#interactive-api-docs)
 
-### Pre-requis
-1. installer python version >=3.10
-2. setup le venv
-3. creer un compte groq et generer une cle api
-4. explorer la documentation et choisir un model au choix
+### Voraussetzungen
+
+1. Python Version >= 3.10 installieren
+2. Virtual Environment einrichten
+3. Ein Groq-Konto erstellen und einen API-Key generieren
+4. Die Dokumentation erkunden und ein Modell nach Wahl auswählen
 
 ### Stack
 
-1. Python 
+1. Python
 2. Groq
 3. FastAPI
 4. Uvicorn
 5. Postman
 6. HTML5/CSS5/JS
 
-
-
-### exemple de requete
+### Beispiel-Abfrage
 
 ```json
 {
-  "query": "bonjour"
+  "query": "Hallo"
 }
 ```
-
-
